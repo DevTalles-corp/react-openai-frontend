@@ -2,6 +2,7 @@
 
 
 export * from './audio-to-text.use-case';
+export * from './image-generation.use-case';
 export * from './orthography.use-case';
 export * from './pros-cons-stream-generator.use-case';
 export * from './pros-cons-stream.use-case';
