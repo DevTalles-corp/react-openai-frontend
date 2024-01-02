@@ -32,11 +32,11 @@ export const AssistantPage = () => {
   }, []);
 
 
-  useEffect(() => {
-    if ( threadId ) {
-      setMessages( (prev) => [ ...prev, { text: `Número de thread ${ threadId }`, isGpt: true }] )
-    }
-  }, [threadId])
+  // useEffect(() => {
+  //   if ( threadId ) {
+  //     setMessages( (prev) => [ ...prev, { text: `Número de thread ${ threadId }`, isGpt: true }] )
+  //   }
+  // }, [threadId])
   
   
 
@@ -75,7 +75,7 @@ export const AssistantPage = () => {
       <div className="chat-messages">
         <div className="grid grid-cols-12 gap-y-2">
           {/* Bienvenida */}
-          <GptMessage text="Buen día, soy Sam, ¿en qué puedo ayudarte?" />
+          <GptMessage text="Buen día, soy Sam,¿Cuál es tu nombre? y ¿en qué puedo ayudarte?" />
 
           {
             messages.map( (message, index) => (
