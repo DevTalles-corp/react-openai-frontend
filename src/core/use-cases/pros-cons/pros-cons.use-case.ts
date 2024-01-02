@@ -1,4 +1,4 @@
-import type { ProsConsResponse } from '../../interfaces';
+import type { ProsConsResponse } from '../../../interfaces';
 
 
 
